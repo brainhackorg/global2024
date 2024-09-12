@@ -1,0 +1,506 @@
+[
+    {
+        "name": "bug",
+        "color": "d73a4a",
+        "default": true,
+        "description": "Something isn't working"
+    },
+    {
+        "name": "dependencies",
+        "color": "0366d6",
+        "default": false,
+        "description": "Pull requests that update a dependency file"
+    },
+    {
+        "name": "documentation",
+        "color": "0075ca",
+        "default": true,
+        "description": "Improvements or additions to documentation"
+    },
+    {
+        "name": "duplicate",
+        "color": "cfd3d7",
+        "default": true,
+        "description": "This issue or pull request already exists"
+    },
+    {
+        "name": "enhancement",
+        "color": "a2eeef",
+        "default": true,
+        "description": "New feature or request"
+    },
+    {
+        "name": "git_skills:0_none",
+        "color": "5B6C2C",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "git_skills:1_commit_push",
+        "color": "5B6C2C",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "git_skills:2_branches_PRs",
+        "color": "5B6C2C",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "git_skills:3_continuous_integration",
+        "color": "5B6C2C",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "good first issue",
+        "color": "7057ff",
+        "default": true,
+        "description": "Good for newcomers"
+    },
+    {
+        "name": "help wanted",
+        "color": "008672",
+        "default": true,
+        "description": "Extra attention is needed"
+    },
+    {
+        "name": "hub:australasia_aus",
+        "color": "0E8A16",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "hub:donostia_esp",
+        "color": "0E8A16",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "hub:marseille_fra",
+        "color": "0E8A16",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "hub:montreal_can",
+        "color": "0E8A16",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "hub:toronto_can",
+        "color": "0E8A16",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "hub:vanderbilt_usa",
+        "color": "0E8A16",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "invalid",
+        "color": "B60205",
+        "default": true,
+        "description": "This doesn't seem right"
+    },
+    {
+        "name": "modality:behavioral",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "modality:DWI",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "modality:ECG",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "modality:ECOG",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "modality:EEG",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "modality:eye_tracking",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "modality:fMRI",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "modality:MEG",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "modality:MRI",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "modality:PET",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "programming:C++",
+        "color": "5319E7",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "programming:containerization",
+        "color": "5319E7",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "programming:documentation",
+        "color": "5319E7",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "programming:html_css",
+        "color": "5319E7",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "programming:Java",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "programming:Julia",
+        "color": "5319E7",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "programming:Matlab",
+        "color": "5319E7",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "programming:Python",
+        "color": "5319E7",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "programming:R",
+        "color": "5319E7",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "programming:shell_scripting",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "programming:Unix_command_line",
+        "color": "5319E7",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "project",
+        "color": "B60205",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "project_development_status:0_concept_no_content",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "project_development_status:1_basic structure",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "project_development_status:2_releases_existing",
+        "color": "D93F0B",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "project_tools_skills:comfortable",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "project_tools_skills:expert",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "project_tools_skills:familiar",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "project_type:coding_methods",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "project_type:data_management",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "project_type:documentation",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "project_type:method_development",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "project_type:pipeline_development",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "project_type:visualisation",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "question",
+        "color": "d876e3",
+        "default": true,
+        "description": "Further information is requested"
+    },
+    {
+        "name": "status:web_ready",
+        "color": "0E8A16",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:AFNI",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:ANTs",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:BIDS",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:Brainstorm",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:Datalad",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:DIPY",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:FieldTrip",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:fMRIPrep",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:Freesurfer",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:FSL",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:Jupyter",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:MNE",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:MRtrix",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:Nipype",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "tools:SPM",
+        "color": "EA1D4E",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:connectome",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:data_visualisation",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:deep_learning",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:ICA",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:machine_learning",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:MR_methodologies",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:neural_decoding",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "topic:neural_networks",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:PCA",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:physiology",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:reproducible_scientific_methods",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:single_neuron_models",
+        "color": "ededed",
+        "default": false,
+        "description": null
+    },
+    {
+        "name": "topic:statistical_modelling",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "topic:systems_neuroscience",
+        "color": "FBCA04",
+        "default": false,
+        "description": ""
+    },
+    {
+        "name": "wontfix",
+        "color": "B60205",
+        "default": true,
+        "description": "This will not be worked on"
+    }
+]
