@@ -7,57 +7,57 @@
 # [[main]]
 #   pre = "<i class='fas fa-search-location'></i>"
 #   name = "&nbsp; Events"
-#   url = "../global2023/events/"
+#   url = "../global2024/events/"
 #   weight = 20
 #   identifier = "event"
 
 
 [[main]]
-  pre = "<i class='fas fa-brain'></i>"
-  name = "&nbsp; Home"
-  url = "../global2023/"
-  weight = 10
+pre = "<i class='fas fa-brain'></i>"
+name = "&nbsp; Home"
+url = "../global2024/"
+weight = 10
 
 [[main]]
-  pre = "<i class='fas fa-search-location'></i>"
-  name = "&nbsp; Events"
-  url = "../global2023/events/"
-  weight = 20
+pre = "<i class='fas fa-search-location'></i>"
+name = "&nbsp; Events"
+url = "../global2024/events/"
+weight = 20
 
 [[main]]
-  pre = "<i class='fas fa-laptop'></i>"
-  name = "&nbsp; Projects"
-  url = "../global2023/projects/"
-  weight = 30
+pre = "<i class='fas fa-laptop'></i>"
+name = "&nbsp; Projects"
+url = "../global2024/projects/"
+weight = 30
 
 [[main]]
-  pre = "<i class='fas fa-brush'></i>"
-  name = "&nbsp; Gallery"
-  url = "../global2023/gallery"
-  weight = 40
+pre = "<i class='fas fa-brush'></i>"
+name = "&nbsp; Gallery"
+url = "../global2024/gallery"
+weight = 40
 
 [[main]]
-  pre = "<i class='fas fa-question'></i>"
-  name = "&nbsp; FAQ"
-  url = "../global2023/faq/"
-  weight = 50
+pre = "<i class='fas fa-question'></i>"
+name = "&nbsp; FAQ"
+url = "../global2024/faq/"
+weight = 50
 
 [[main]]
-  name = "Code of Conduct"
-  url = "https://brainhack.org/code-of-conduct"
-  weight = 60
+name = "Code of Conduct"
+url = "https://brainhack.org/code-of-conduct"
+weight = 60
 
 [[main]]
-  name = "Team"
-  url = "../global2023/#team"
-  weight = 70
+name = "Team"
+url = "../global2024/#team"
+weight = 70
 
 # [[main]]
 #   name = "Partners"
-#   url = "../global2023/#partner"
+#   url = "../global2024/#partner"
 #   weight = 80
 
 [[main]]
-  name = "Contact"
-  url = "../global2023/#contact"
-  weight = 90
+name = "Contact"
+url = "../global2024/#contact"
+weight = 90

@@ -1,15 +1,15 @@
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
- * Copyright 2011-2023 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+ * Copyright 2011-2024 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 (function (global, factory) {
   typeof exports === "object" && typeof module !== "undefined"
     ? factory(exports, require("jquery"))
     : typeof define === "function" && define.amd
-    ? define(["exports", "jquery"], factory)
-    : ((global = global || self),
-      factory((global.bootstrap = {}), global.jQuery));
+      ? define(["exports", "jquery"], factory)
+      : ((global = global || self),
+        factory((global.bootstrap = {}), global.jQuery));
 })(this, function (exports, $) {
   "use strict";
 
@@ -236,13 +236,13 @@
           if (!new RegExp(expectedTypes).test(valueType)) {
             throw new Error(
               componentName.toUpperCase() +
-                ": " +
-                ('Option "' +
-                  property +
-                  '" provided type "' +
-                  valueType +
-                  '" ') +
-                ('but expected type "' + expectedTypes + '".')
+              ": " +
+              ('Option "' +
+                property +
+                '" provided type "' +
+                valueType +
+                '" ') +
+              ('but expected type "' + expectedTypes + '".')
             );
           }
         }
@@ -1211,10 +1211,10 @@
               .addClass(CLASS_NAME_ACTIVE$1);
             $(activeElement).removeClass(
               CLASS_NAME_ACTIVE$1 +
-                " " +
-                orderClassName +
-                " " +
-                directionalClassName
+              " " +
+              orderClassName +
+              " " +
+              directionalClassName
             );
             _this4._isSliding = false;
             setTimeout(function () {
@@ -1402,9 +1402,9 @@
       this._triggerArray = [].slice.call(
         document.querySelectorAll(
           '[data-toggle="collapse"][href="#' +
-            element.id +
-            '"],' +
-            ('[data-toggle="collapse"][data-target="#' + element.id + '"]')
+          element.id +
+          '"],' +
+          ('[data-toggle="collapse"][data-target="#' + element.id + '"]')
         )
       );
       var toggleList = [].slice.call(
@@ -2157,12 +2157,12 @@
       html["scroll" + axis],
       isIE(10)
         ? parseInt(html["offset" + axis]) +
-            parseInt(
-              computedStyle["margin" + (axis === "Height" ? "Top" : "Left")]
-            ) +
-            parseInt(
-              computedStyle["margin" + (axis === "Height" ? "Bottom" : "Right")]
-            )
+        parseInt(
+          computedStyle["margin" + (axis === "Height" ? "Top" : "Left")]
+        ) +
+        parseInt(
+          computedStyle["margin" + (axis === "Height" ? "Bottom" : "Right")]
+        )
         : 0
     );
   }
@@ -2272,7 +2272,7 @@
       } else {
         rect = element.getBoundingClientRect();
       }
-    } catch (e) {}
+    } catch (e) { }
 
     var result = {
       left: rect.left,
@@ -3037,7 +3037,7 @@
       // add unit if the value is numeric and is one of the following
       if (
         ["width", "height", "top", "right", "bottom", "left"].indexOf(prop) !==
-          -1 &&
+        -1 &&
         isNumeric(styles[prop])
       ) {
         unit = "px";
@@ -3182,8 +3182,8 @@
     var horizontalToInteger = !shouldRound
       ? noRound
       : isVertical || isVariation || sameWidthParity
-      ? round
-      : floor;
+        ? round
+        : floor;
     var verticalToInteger = !shouldRound ? noRound : round;
 
     return {
@@ -3341,11 +3341,11 @@
       var requested = "`" + requestedName + "`";
       console.warn(
         requested +
-          " modifier is required by " +
-          _requesting +
-          " modifier in order to work, be sure to include it before " +
-          _requesting +
-          "!"
+        " modifier is required by " +
+        _requesting +
+        " modifier in order to work, be sure to include it before " +
+        _requesting +
+        "!"
       );
     }
     return isRequired;
@@ -3441,9 +3441,9 @@
     data.arrowElement = arrowElement;
     data.offsets.arrow =
       ((_data$offsets$arrow = {}),
-      defineProperty(_data$offsets$arrow, side, Math.round(sideValue)),
-      defineProperty(_data$offsets$arrow, altSide, ""),
-      _data$offsets$arrow);
+        defineProperty(_data$offsets$arrow, side, Math.round(sideValue)),
+        defineProperty(_data$offsets$arrow, altSide, ""),
+        _data$offsets$arrow);
 
     return data;
   }
@@ -3811,13 +3811,13 @@
     var ops =
       divider !== -1
         ? [
-            fragments
-              .slice(0, divider)
-              .concat([fragments[divider].split(splitRegex)[0]]),
-            [fragments[divider].split(splitRegex)[1]].concat(
-              fragments.slice(divider + 1)
-            ),
-          ]
+          fragments
+            .slice(0, divider)
+            .concat([fragments[divider].split(splitRegex)[0]]),
+          [fragments[divider].split(splitRegex)[1]].concat(
+            fragments.slice(divider + 1)
+          ),
+        ]
         : [fragments];
 
     // Convert the values with units to absolute pixels to allow our computations
@@ -3976,7 +3976,7 @@
           value = Math.min(
             popper[mainSide],
             boundaries[placement] -
-              (placement === "right" ? popper.width : popper.height)
+            (placement === "right" ? popper.width : popper.height)
           );
         }
         return defineProperty({}, mainSide, value);
@@ -4511,7 +4511,7 @@
      * Access Popper.js instance with `data.instance`.
      * @prop {onCreate}
      */
-    onCreate: function onCreate() {},
+    onCreate: function onCreate() { },
 
     /**
      * Callback called when the popper is updated. This callback is not called
@@ -4521,7 +4521,7 @@
      * Access Popper.js instance with `data.instance`.
      * @prop {onUpdate}
      */
-    onUpdate: function onUpdate() {},
+    onUpdate: function onUpdate() { },
 
     /**
      * List of modifiers used to modify the offsets before they are applied to the popper.
@@ -5175,10 +5175,10 @@
       if (
         /input|textarea/i.test(event.target.tagName)
           ? event.which === SPACE_KEYCODE ||
-            (event.which !== ESCAPE_KEYCODE &&
-              ((event.which !== ARROW_DOWN_KEYCODE &&
-                event.which !== ARROW_UP_KEYCODE) ||
-                $(event.target).closest(SELECTOR_MENU).length))
+          (event.which !== ESCAPE_KEYCODE &&
+            ((event.which !== ARROW_DOWN_KEYCODE &&
+              event.which !== ARROW_UP_KEYCODE) ||
+              $(event.target).closest(SELECTOR_MENU).length))
           : !REGEXP_KEYDOWN.test(event.which)
       ) {
         return;
@@ -6048,7 +6048,7 @@
       if (uriAttrs.indexOf(attrName) !== -1) {
         return Boolean(
           attr.nodeValue.match(SAFE_URL_PATTERN) ||
-            attr.nodeValue.match(DATA_URL_PATTERN)
+          attr.nodeValue.match(DATA_URL_PATTERN)
         );
       }
 
@@ -7329,7 +7329,7 @@
         return;
       }
 
-      for (var i = this._offsets.length; i--; ) {
+      for (var i = this._offsets.length; i--;) {
         var isActiveTarget =
           this._activeTarget !== this._targets[i] &&
           scrollTop >= this._offsets[i] &&
@@ -7453,7 +7453,7 @@
     );
     var scrollSpysLength = scrollSpys.length;
 
-    for (var i = scrollSpysLength; i--; ) {
+    for (var i = scrollSpysLength; i--;) {
       var $spy = $(scrollSpys[i]);
 
       ScrollSpy._jQueryInterface.call($spy, $spy.data());
@@ -7594,7 +7594,7 @@
 
       var activeElements =
         container &&
-        (container.nodeName === "UL" || container.nodeName === "OL")
+          (container.nodeName === "UL" || container.nodeName === "OL")
           ? $(container).find(SELECTOR_ACTIVE_UL)
           : $(container).children(SELECTOR_ACTIVE$2);
       var active = activeElements[0];

@@ -1,11 +1,11 @@
 backend:
   name: github
-  repo: brainhackorg/global2023
+  repo: brainhackorg/global2024
   branch: cms # Branch to update (optional; defaults to master)
   api_root: https://api.github.com
   base_url: https://api.netlify.com
-  identity_url: "https://brainhack.org/global2023/.netlify/identity"
-  gateway_url: "https://brainhack.org/global/2023/.netlify/git"
+  identity_url: "https://brainhack.org/global2024/.netlify/identity"
+  gateway_url: "https://brainhack.org/global/2024/.netlify/git"
   # cms_label_prefix: netlify-cms/
 
 publish_mode: editorial_workflow # Option to create a branch once new content is created/saved and allow editing before merging the PR
@@ -13,7 +13,7 @@ media_folder: "static/media/"
 public_folder: "media"
 # show_preview_links: false # can disable it if preview != good
 
-site_url: https://brainhack.org/global2023
+site_url: https://brainhack.org/global2024
 
 collections:
   - name: projects
@@ -81,14 +81,8 @@ collections:
               - { label: "Regular", value: "far" }
               - { label: "Brand", value: "fab" }
               - { label: "Academic", value: "ai" }
-          - {
-              label:
-                "Icon (see
-                https://sourcethemes.com/academic/docs/page-builder/#icons)",
-              name: icon,
-              widget: string,
-              required: false,
-            }
+          - { label: "Icon (see
+                https://sourcethemes.com/academic/docs/page-builder/#icons)", name: icon, widget: string, required: false }
       - label: "Featured Image"
         name: "image"
         required: false
@@ -159,14 +153,8 @@ collections:
               - { label: "Regular", value: "far" }
               - { label: "Brand", value: "fab" }
               - { label: "Academic", value: "ai" }
-          - {
-              label:
-                "Icon (see
-                https://sourcethemes.com/academic/docs/page-builder/#icons)",
-              name: icon,
-              widget: string,
-              required: false,
-            }
+          - { label: "Icon (see
+                https://sourcethemes.com/academic/docs/page-builder/#icons)", name: icon, widget: string, required: false }
       - { label: "Event", name: "event", widget: "string" }
       - { label: "Event link", name: "event_url", widget: "string" }
       - {
