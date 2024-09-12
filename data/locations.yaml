@@ -257,7 +257,7 @@ events:
   #   image: krakow.jpg
   #   image_caption: "Image credit: [**Brainhack Krakow**](https://www.brainhack-krakow.org)"
   #   publishDate: "2034-01-20"
-  - title: Brainhack Australasia
+  - title: Brainhack - Aus
     format: In Person
     display: true
     abstract:
