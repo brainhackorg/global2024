@@ -323,6 +323,38 @@ events:
     image: donostia.png
     image_caption: "Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)"
     publishDate: "2024-01-22"
+  - title: Brainhack Marseille
+    format: In person
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - David Meunier
+      - Dipankar Bachar
+    contact:
+      - david.meunier@univ-amu.fr
+      - dipankar.bachar@univ-amu.fr
+    location: Faculte des Sciences Medicales et Paramedicales secteur Timone (Aix-Marseille Universite)
+    address: 27 bd jean moulin
+      street:
+      city: Marseille
+      region: PACA
+      postcode: 13005
+      country: France
+    position:
+      lat: 43.288999884248945
+      lng: 5.40045083424231  
+    date: '2024-11-27'
+    date_end: '2024-11-29'
+    mattermost_channel: bhg24-marseille
+    twitter_handle: BrainhackM
+    facebook:
+    instagram:
+    website: https://brainhack-marseille.github.io/
+    github_username: brainhack-marseille
+    image: marseille.png
+    image_caption: 'Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)'
+    publishDate: '2024-10-22'
   # - title: Brainhack Marseille
   #   format: Hybrid
   #   display: true
