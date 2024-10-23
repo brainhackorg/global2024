@@ -335,8 +335,8 @@ events:
       - david.meunier@univ-amu.fr
       - dipankar.bachar@univ-amu.fr
     location: Faculte des Sciences Medicales et Paramedicales secteur Timone (Aix-Marseille Universite)
-    address: 27 bd jean moulin
-      street:
+    address:
+      street: 27 Bd Jean Moulin
       city: Marseille
       region: PACA
       postcode: 13005
