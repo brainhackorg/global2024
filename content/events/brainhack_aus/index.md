@@ -28,7 +28,7 @@ date_end: "2024-11-06"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2024-09-12"
+publishDate: "2024-10-28"
 
 authors: []
 tags: []
@@ -46,10 +46,13 @@ links:
     name: Website
     url: https://brainhack-aus.github.io/global2024/
 
+
   - icon: mattermost
     icon_pack: custom
     name: Mattermost
     url: https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia
+
+
 
   - icon: github
     icon_pack: fab
