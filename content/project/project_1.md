@@ -9,6 +9,11 @@
       "color": "5B6C2C"
     },
     {
+      "name": "hub:melbourne_aus",
+      "description": "",
+      "color": "0E8A16"
+    },
+    {
       "name": "modality:behavioral",
       "description": "",
       "color": "1d76db"

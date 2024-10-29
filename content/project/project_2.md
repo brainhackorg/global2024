@@ -9,7 +9,7 @@
       "color": "5B6C2C"
     },
     {
-      "name": "hub:australasia_aus",
+      "name": "hub:melbourne_aus",
       "description": "",
       "color": "0E8A16"
     },
