@@ -65,198 +65,39 @@ events:
   #   image: vienna.png
   #   image_caption: "Image credit: [**Brainhack Vienna**](https://brainhack-vienna.github.io/)"
   #   publishDate: "2024-01-22"
-  # - title: Brainhack Lucca
-  #   format: Hybrid
-  #   display: true
-  #   abstract:
-  #   summary:
-  #   organizers:
-  #     - Ruggero Basanisi
-  #     - Monica Betta
-  #   contact:
-  #     - brainhacklucca@imtlucca.it
-  #     - ruggero.basanisi@imtlucca.it
-  #     - monica.betta@imtlucca.it
-  #   location: IMT school for advanced studies
-  #   address:
-  #     street: Piazza S.Francesco, 19
-  #     city: Lucca
-  #     region:
-  #     postcode: 55100
-  #     country: Italy
-  #   position:
-  #     lat: 43.846194242250874
-  #     lng: 10.510857315344076
-  #   date: "2024-12-04"
-  #   date_end: "2013-12-07"
-  #   mattermost_channel:
-  #   twitter_handle: BrainHackLucca
-  #   facebook:
-  #   instagram:
-  #   website: https://brainhacklucca.github.io/index.html
-  #   github_username: brainhacklucca
-  #   image: BHLucca.png
-  #   image_caption: "Image credit: [**Brainhack Lucca**](https://brainhacklucca.github.io/index.html)"
-  #   publishDate: "2024-01-22"
-  # - title: Brainhack Warsaw
-  #   format: In person
-  #   display: false
-  #   abstract:
-  #   summary:
-  #   organizers:
-  #     - Julia Jakubowska
-  #   contact:
-  #     - j.jakubowska10@student.uw.edu.pl
-  #   location: Faculty of Physics, University of Warsaw
-  #   address:
-  #     street:
-  #     city: Warsaw
-  #     region:
-  #     postcode:
-  #     country: Poland
-  #   position:
-  #     lat: 52.213001948085335
-  #     lng: 20.982592326934363
-  #   date: "2024-03-17"
-  #   date_end: "2024-03-19"
-  #   mattermost_channel: brainhack-warsaw
-  #   twitter_handle: BrainhackW
-  #   facebook:
-  #   instagram:
-  #   website: https://brainhackwarsaw.fuw.edu.pl/
-  #   github_username:
-  #   image: warsaw.png
-  #   image_caption: "Image credit: [**Brainhack Warsaw**](https://brainhackwarsaw.fuw.edu.pl/)"
-  #   publishDate: "2034-01-20"
-  # - title: Bay Area Brainhack
-  #   format: Hybrid
-  #   display: false
-  #   abstract:
-  #   summary:
-  #   organizers:
-  #     - Matteo Visconti di Oleggio Castello
-  #     - Elizabeth DuPre
-  #   contact:
-  #     - matteo.visconti@berkeley.edu
-  #     - elizabethm.dupre@gmail.com
-  #   location: UC San Francisco, UC Berkeley, Stanford University
-  #   address:
-  #     street:
-  #     city: San Francisco
-  #     region:
-  #     postcode:
-  #     country: United States
-  #   position:
-  #     lat: 37.76301542212483
-  #     lng: -122.38914841587729
-  #   date: "2024-02-09"
-  #   date_end: "2024-02-10"
-  #   mattermost_channel: brainhack-bay-area
-  #   twitter_handle:
-  #   facebook:
-  #   instagram:
-  #   website: https://brainhack-bayarea.github.io/home/
-  #   github_username:
-  #   image: bayarea.png
-  #   image_caption: "Image credit: [**Bay Area Brainhack**](https://brainhack-bayarea.github.io/home/)"
-  #   publishDate: "2034-01-20"
-  # - title: Brainhack Physiopy
-  #   format: Online
-  #   display: true
-  #   abstract:
-  #   summary:
-  #   organizers:
-  #     - Mary Miedema
-  #     - Stefano Moia
-  #   contact:
-  #     - physiopy.community@gmail.com
-  #     - mary.miedema@mail.mcgill.ca
-  #     - s.moia.research@gmail.com
-  #   location: Physiopy
-  #   address:
-  #     street:
-  #     city: Atlantis
-  #     region:
-  #     postcode:
-  #     country:
-  #   position:
-  #     lat: 31.254314
-  #     lng: -24.258481
-  #   date: "2024-12-04"
-  #   date_end: "2024-12-05"
-  #   mattermost_channel: physiopy
-  #   twitter_handle:
-  #   facebook:
-  #   instagram:
-  #   website: https://physiopy.github.io/brainhack-physiopy-2024/
-  #   github_username: physiopy
-  #   image: physiopy.png
-  #   image_caption: "Image credit: [**Brainhack Physiopy**](https://github.com/physiopy)"
-  #   publishDate: "2024-01-22"
-  # - title: The BOB Hack
-  #   format: In person
-  #   display: false
-  #   abstract:
-  #   summary: The exploration of contemporary research
-  #   organizers:
-  #     - Claude Julien Bajada
-  #     - Raisa Grech
-  #   contact:
-  #     - claude.bajada@um.edu.mt
-  #     - raisa.grech@um.edu.mt
-  #   location: University of Malta
-  #   address:
-  #     street:
-  #     city: Msida
-  #     region:
-  #     postcode:
-  #     country: Malta
-  #   position:
-  #     lat: 35.914037649429865
-  #     lng: 14.484297035544472
-  #   date: "2024-11-30"
-  #   date_end: "2024-12-02"
-  #   mattermost_channel: brainhack-malta
-  #   twitter_handle: NeuroCerberus
-  #   facebook:
-  #   instagram:
-  #   website: https://boblab.info
-  #   github_username:
-  #   image: malta.jpg
-  #   image_caption: "Image credit: [**The BOB Hack**](https://boblab.info)"
-  #   publishDate: "2034-01-20"
-  # - title: Brainhack Krakow
-  #   format: In person
-  #   display: false
-  #   abstract: The Satellite Event of the [Neuronus Forum 2024](https://neuronusforum.pl/)
-  #   summary: Simulate the brain to predict behaviour in health and disease.
-  #   organizers:
-  #     - Krzysztof Bielski
-  #     - Szymon Wichary
-  #   contact:
-  #     - krzysztof.bielski@doctoral.uj.edu.pl
-  #     - szymon.wichary@uj.edu.pl
-  #   location: Institute of Psychology
-  #   address:
-  #     street: Romana Ingardena 6
-  #     city: Krakow
-  #     region:
-  #     postcode: 30-060
-  #     country: Poland
-  #   position:
-  #     lat: 50.061816691989
-  #     lng: 19.919703711991456
-  #   date: "2024-10-21"
-  #   date_end: "2024-10-23"
-  #   mattermost_channel: brainhack-krakow
-  #   twitter_handle: BrainhackKrakow
-  #   facebook:
-  #   instagram:
-  #   website: https://www.brainhack-krakow.org
-  #   github_username: Brainhack-2024
-  #   image: krakow.jpg
-  #   image_caption: "Image credit: [**Brainhack Krakow**](https://www.brainhack-krakow.org)"
-  #   publishDate: "2034-01-20"
+  - title: Brainhack Lucca
+    format: Hybrid
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Ruggero Basanisi
+      - Valentina Elce
+    contact:
+      - brainhacklucca@imtlucca.it
+      - ruggero.basanisi@imtlucca.it
+      - valentina.elce@imtlucca.it
+    location: IMT school for advanced studies
+    address:
+      street: Piazza S.Francesco, 19
+      city: Lucca
+      region:
+      postcode: 55100
+      country: Italy
+    position:
+      lat: 43.846194242250874
+      lng: 10.510857315344076
+    date: '2024-12-02'
+    date_end: '2024-12-05'
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    instagram:
+    website: https://brainhacklucca.github.io/
+    github_username: brainhacklucca
+    image: BHLucca.png
+    image_caption: 'Image credit: [**Brainhack Lucca**](https://brainhacklucca.github.io/index.html)'
+    publishDate: '2024-12-01'
   - title: Brainhack Aus
     format: In Person
     display: true
@@ -290,7 +131,7 @@ events:
     github_username: brainhack-aus
     image: australia.jpg
     image_caption: 'Image credit: [**Brainhack Australia**](https://brainhack-aus.github.io/global2024/)'
-    publishDate: '2024-10-28'
+    publishDate: '2024-12-01'
   - title: Brainhack Donostia
     format: In person
     display: true
@@ -322,7 +163,7 @@ events:
     github_username: Brainhack-Donostia
     image: donostia.png
     image_caption: 'Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)'
-    publishDate: '2024-10-28'
+    publishDate: '2024-12-01'
   - title: Brainhack Marseille
     format: In person
     display: true
@@ -334,8 +175,7 @@ events:
     contact:
       - david.meunier@univ-amu.fr
       - dipankar.bachar@univ-amu.fr
-    location: Faculte des Sciences Medicales et Paramedicales secteur Timone (Aix-Marseille
-      Universite)
+    location: Faculte des Sciences Medicales et Paramedicales secteur Timone (Aix-Marseille Universite)
     address:
       street: 27 Bd Jean Moulin
       city: Marseille
@@ -355,4 +195,4 @@ events:
     github_username: brainhack-marseille
     image: marseille.png
     image_caption: 'Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)'
-    publishDate: '2024-10-28'
+    publishDate: '2024-12-01'

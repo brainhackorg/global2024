@@ -11,15 +11,15 @@ event_url: https://brainhack-aus.github.io/global2024/
 location: University of Melbourne
 
 address:
-  street: 
+  street:
   city: Melbourne
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Australia
 
-summary: 
+summary:
 
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -28,7 +28,7 @@ date_end: "2024-11-06"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2024-10-28"
+publishDate: "2024-12-01"
 
 authors: []
 tags: []

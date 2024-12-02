@@ -17,9 +17,9 @@ address:
   postcode: 13005
   country: France
 
-summary: 
+summary:
 
-abstract: 
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -28,7 +28,7 @@ date_end: "2024-11-29"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2024-10-28"
+publishDate: "2024-12-01"
 
 authors: []
 tags: []
