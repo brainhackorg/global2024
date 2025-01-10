@@ -97,7 +97,7 @@ events:
     github_username: brainhacklucca
     image: BHLucca.png
     image_caption: 'Image credit: [**Brainhack Lucca**](https://brainhacklucca.github.io/index.html)'
-    publishDate: '2024-12-01'
+    publishDate: '2025-01-09'
   - title: Brainhack Aus
     format: In Person
     display: true
@@ -131,7 +131,7 @@ events:
     github_username: brainhack-aus
     image: australia.jpg
     image_caption: 'Image credit: [**Brainhack Australia**](https://brainhack-aus.github.io/global2024/)'
-    publishDate: '2024-12-01'
+    publishDate: '2025-01-09'
   - title: Brainhack Donostia
     format: In person
     display: true
@@ -163,7 +163,7 @@ events:
     github_username: Brainhack-Donostia
     image: donostia.png
     image_caption: 'Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)'
-    publishDate: '2024-12-01'
+    publishDate: '2025-01-09'
   - title: Brainhack Marseille
     format: In person
     display: true
@@ -175,7 +175,8 @@ events:
     contact:
       - david.meunier@univ-amu.fr
       - dipankar.bachar@univ-amu.fr
-    location: Faculte des Sciences Medicales et Paramedicales secteur Timone (Aix-Marseille Universite)
+    location: Faculte des Sciences Medicales et Paramedicales secteur Timone (Aix-Marseille
+      Universite)
     address:
       street: 27 Bd Jean Moulin
       city: Marseille
@@ -195,4 +196,35 @@ events:
     github_username: brainhack-marseille
     image: marseille.png
     image_caption: 'Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)'
-    publishDate: '2024-12-01'
+    publishDate: '2025-01-09'
+  - title: BrainHack Vanderbilt
+    format: Hybrid
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Roza Bayrak
+      - Richard Song
+    contact:
+      - richard.w.song@vanderbilt.edu
+    location: Vanderbilt University
+    address:
+      street: 2205 West End Ave.
+      city: Nashville
+      region: Tennessee
+      postcode: 37240
+      country: USA
+    position:
+      lat: 36.14796824296768
+      lng: -86.80336325418685
+    date: '2025-01-24'
+    date_end: '2025-01-26'
+    mattermost_channel: brainhack-vandy
+    twitter_handle:
+    facebook:
+    instagram: https://www.instagram.com/brainhackvu
+    website: https://brainhack-vandy.github.io/
+    github_username: brainhack-vandy
+    image: vanderbilt.png
+    image_caption: 'Image credit: [**BrainHack Vanderbilt**](https://brainhack-vandy.github.io/)'
+    publishDate: '2025-01-09'
