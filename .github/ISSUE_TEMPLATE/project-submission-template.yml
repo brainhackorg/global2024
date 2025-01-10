@@ -83,6 +83,7 @@ body:
       label: Brainhack Global 2024 Event
       multiple: true
       options:
+        - BrainHack Vanderbilt
         - Brainhack Aus
         - Brainhack Donostia
         - Brainhack Lucca
